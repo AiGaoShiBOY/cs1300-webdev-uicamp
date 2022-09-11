@@ -54,7 +54,7 @@ const exampleAddElement = (item) => {
   // Create a new HTML element and set its properties
   for(i =0; i<item.length;i++){
     const newElement = document.createElement('div');
-    newElement.innerHTML = item[0].name;
+    newElement.innerHTML = item[i].name;
     
     // Append the new element to an existing part of the webpage
     const existingElement = document.getElementById('fruit-info');
